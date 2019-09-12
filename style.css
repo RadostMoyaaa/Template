@@ -16,6 +16,11 @@ h1 {
     color: #fff;
 }
 
+p {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
 /*HEADER*/
 
 header {
@@ -53,7 +58,7 @@ ul.menu {
 
 .jumbotron{
 	clear: both;
-	background-image: url(jumb.jpg);
+	background-image: url(img/jumbotron_background.jpg);
     background-size: cover;
     background-position: bottom center;
     background-repeat: no-repeat;
@@ -76,4 +81,25 @@ ul.menu {
 
 .button:hover{
 	color: black;
+}
+
+/*Services*/
+
+.services {
+	padding-top: 70px;
+	text-align: center;
+}
+
+.service {
+	opacity: .6;
+	width: 33.3%;
+	float: left;
+	margin-top: 20px;
+	padding-left: 15px;
+    padding-right: 15px;
+	box-sizing: border-box;
+}
+
+.service i {
+	margin-bottom: 10px;
 }
