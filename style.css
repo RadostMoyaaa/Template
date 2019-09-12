@@ -19,6 +19,28 @@ h1 {
 p {
 	font-size: 14px;
 	line-height: 1.5;
+	color: #aaa;
+}
+
+.brand {
+    font-size: 30px;
+}
+
+.menu {
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	padding-top: 12px;
+	float: left;
+	margin-right: 20px;
+	list-style-type: none;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #aaa;
 }
 
 /*HEADER*/
@@ -27,30 +49,14 @@ header {
 	padding-top: 30px;
 }
 
-.brand {
-	font-size: 30px;
+header .brand {
 	float: left;
-	color: #aaa;
+	color: #000;
 	margin-bottom: 30px;
-
 }
 
-ul.menu {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+header ul.menu {
 	float: right;
-}
-
-.menu li {
-	padding-top: 12px;
-	float: left;
-	margin-right: 20px;
-}
-
-.menu li a {
-	text-decoration: none;
-	color: #aaa;
 }
 
 
@@ -91,7 +97,6 @@ ul.menu {
 }
 
 .service {
-	opacity: .6;
 	width: 33.3%;
 	float: left;
 	margin-top: 20px;
@@ -102,4 +107,56 @@ ul.menu {
 
 .service i {
 	margin-bottom: 10px;
+	opacity: .6;
+}
+
+/*Blog*/
+
+.blog {
+	padding-top: 60px;
+	clear: both;
+	background-color: #fcfcfc;
+	padding-bottom: 60px;
+}
+.blog h2 {
+	text-align: center;
+}
+.blog .post img {
+	float: left;
+	margin-right: 30px;
+}
+.blog .post p {
+	color: #aaa;
+}
+.blog .post {
+	padding-top: 30px;
+	clear: both;
+	display: inline-block;
+	padding-left: 20px;
+}
+
+/*Footer*/
+
+footer {
+	clear: both;
+	text-align: center;
+	background: #aaa;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+footer .menu {
+	display: inline-block;
+}
+
+footer .menu li a{
+	color: #000;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+footer .menu li {
+	margin-top: 30px;
+	margin-left: 0px;
+	padding: 0px;
 }
